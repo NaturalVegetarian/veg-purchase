@@ -685,7 +685,7 @@ function VendorsPage({ vendors, onSave }) {
   const [editing, setEditing] = useState(null);  // null / { id?, ...fields }
 
   function isComplete(v) {
-    return v.bank_code && v.branch_code && v.bank_account && v.bank_account_name;
+    return v.bank_code && v.bank_account && v.bank_account_name;
   }
 
   return (
